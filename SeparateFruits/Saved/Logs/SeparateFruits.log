@@ -5893,3 +5893,183 @@ Script Stack (0 frames):
 [2023.01.05-16.49.45:403][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
 [2023.01.05-16.49.45:453][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2023.01.05-16.49.45:503][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.01.05-16.50.32:841][866]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.05-16.50.32:846][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.05-16.50.32:846][866]PIE: New page: PIEセッション: Main (2023/01/06 10:50:32)
+[2023.01.05-16.50.32:846][866]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.05-16.50.32:850][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004227s)
+[2023.01.05-16.50.32:850][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004289s)
+[2023.01.05-16.50.32:850][866]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.05-16.50.32:850][866]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.05-16.50.32:850][866]LogAIModule: Creating AISystem for world Main
+[2023.01.05-16.50.32:851][866]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2023.01.05-16.50.32:900][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.01.05-16.50.32:902][866]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.05-16.50.32:902][866]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.05-16.50.32:902][866]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.05-16.50.32:902][866]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.05-16.50.32:902][866]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.05-16.50.32:902][866]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.05-16.50.32:904][866]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.05-16.50.32:936][866]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.01.05-16.50.32:937][866]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.05-16.50.32:937][866]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.05-16.50.32:937][866]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.05-16.50.32:937][866]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.01.05-16.50.32:937][866]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.01.05-16.50.32:939][866]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.01.05-16.50.32:939][866]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.01.05-16.50.32:939][866]LogInit: FAudioDevice initialized.
+[2023.01.05-16.50.32:939][866]LogAudio: Display: Audio Device (ID: 40) registered with world 'Main'.
+[2023.01.05-16.50.32:948][866]LogLoad: Game class is 'BP_SeparateFruitsGameMode_C'
+[2023.01.05-16.50.32:948][866]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.06-01.50.32
+[2023.01.05-16.50.32:949][866]LogWorld: Bringing up level for play took: 0.000886
+[2023.01.05-16.50.32:950][866]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2023.01.05-16.50.32:952][866]LogOSC: Display: OSCServer 'OSCServer_03tTg_0XREmlWR04wc6vdQ' Listening: 0.0.0.0:50000.
+[2023.01.05-16.50.32:952][866]PIE: サーバーにログインしました
+[2023.01.05-16.50.32:953][866]PIE: PIE合計開始時間 0.108 秒。
+[2023.01.05-16.51.33:856][910]LogNet: Browse: /Game/Map/End
+[2023.01.05-16.51.33:856][910]LogLoad: LoadMap: /Game/Map/End
+[2023.01.05-16.51.33:856][910]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.05-16.51.33:856][910]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.33:856][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.33:962][910]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.05-16.51.33:964][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.05-16.51.33:975][910]LogAudio: Display: Audio Device (ID: 40) registered with world 'End'.
+[2023.01.05-16.51.33:975][910]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.05-16.51.33:975][910]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.05-16.51.33:975][910]LogAIModule: Creating AISystem for world End
+[2023.01.05-16.51.33:976][910]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2023.01.05-16.51.33:976][910]LogLoad: Game class is 'NoPownGameMode_C'
+[2023.01.05-16.51.33:976][910]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 0) at 2023.01.06-01.51.33
+[2023.01.05-16.51.33:976][910]LogWorld: Bringing up level for play took: 0.000580
+[2023.01.05-16.51.33:977][910]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.05-16.51.33:977][910]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.01.05-16.51.33:977][910]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.01.05-16.51.33:977][910]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.01.05-16.51.33:979][910]LogOSC: Display: OSCServer 'OSCServer_tlRGCv43MkO4JIRdhqhQLw' Listening: 0.0.0.0:50000.
+[2023.01.05-16.51.33:979][910]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.01.05-16.51.33:979][910]LogLoad: Took 0.123339 seconds to LoadMap(/Game/Map/End)
+[2023.01.05-16.51.35:296][ 66]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2023.01.05-16.51.35:296][ 66]LogGameState: Match State Changed from InProgress to LeavingMap
+[2023.01.05-16.51.35:296][ 66]LogNet: Browse: /Game/Map/Title
+[2023.01.05-16.51.35:296][ 66]LogLoad: LoadMap: /Game/Map/Title
+[2023.01.05-16.51.35:296][ 66]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_End
+[2023.01.05-16.51.35:296][ 66]LogWorld: UWorld::CleanupWorld for End, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.35:296][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.35:480][ 66]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.05-16.51.35:482][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.05-16.51.35:493][ 66]LogAudio: Display: Audio Device (ID: 40) registered with world 'Title'.
+[2023.01.05-16.51.35:493][ 66]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.05-16.51.35:493][ 66]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.05-16.51.35:493][ 66]LogAIModule: Creating AISystem for world Title
+[2023.01.05-16.51.35:493][ 66]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2023.01.05-16.51.35:493][ 66]LogLoad: Game class is 'NoPownGameMode_C'
+[2023.01.05-16.51.35:494][ 66]LogWorld: Bringing World /Game/Map/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2023.01.06-01.51.35
+[2023.01.05-16.51.35:494][ 66]LogWorld: Bringing up level for play took: 0.000583
+[2023.01.05-16.51.35:494][ 66]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.05-16.51.35:495][ 66]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.01.05-16.51.35:495][ 66]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.01.05-16.51.35:495][ 66]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.01.05-16.51.35:496][ 66]LogOSC: Display: OSCServer 'OSCServer_cJODcXW8l0CpgRYkxVHDvg' Listening: 0.0.0.0:50000.
+[2023.01.05-16.51.35:497][ 66]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.01.05-16.51.35:497][ 66]LogLoad: Took 0.201286 seconds to LoadMap(/Game/Map/Title)
+[2023.01.05-16.51.36:127][135]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2023.01.05-16.51.36:127][135]LogGameState: Match State Changed from InProgress to LeavingMap
+[2023.01.05-16.51.36:127][135]LogNet: Browse: /Game/Map/Main
+[2023.01.05-16.51.36:127][135]LogLoad: LoadMap: /Game/Map/Main
+[2023.01.05-16.51.36:127][135]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Title
+[2023.01.05-16.51.36:127][135]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.36:127][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.36:223][135]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.05-16.51.36:309][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.05-16.51.36:313][135]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2023.01.05-16.51.36:317][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003993s)
+[2023.01.05-16.51.36:317][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004088s)
+[2023.01.05-16.51.36:317][135]LogAudio: Display: Audio Device (ID: 40) registered with world 'Main'.
+[2023.01.05-16.51.36:317][135]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.05-16.51.36:317][135]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.05-16.51.36:317][135]LogAIModule: Creating AISystem for world Main
+[2023.01.05-16.51.36:317][135]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2023.01.05-16.51.36:317][135]LogLoad: Game class is 'BP_SeparateFruitsGameMode_C'
+[2023.01.05-16.51.36:318][135]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.06-01.51.36
+[2023.01.05-16.51.36:318][135]LogWorld: Bringing up level for play took: 0.000565
+[2023.01.05-16.51.36:318][135]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.05-16.51.36:321][135]LogOSC: Display: OSCServer 'OSCServer_DkSq1CkDHEC6ZeqNGucq8g' Listening: 0.0.0.0:50000.
+[2023.01.05-16.51.36:321][135]LogLoad: Took 0.194277 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2023.01.05-16.51.37:576][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.05-16.51.37:576][262]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Main
+[2023.01.05-16.51.37:576][262]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.37:576][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.37:587][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.05-16.51.37:593][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.37:727][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.05-16.51.37:728][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.01.05-16.51.37:729][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.01.05-16.51.37:740][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.01.05-16.51.37:757][263]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2023.01.05-16.51.49:874][644]BlueprintLog: New page: BP_SeparateFruitsGameMode をコンパイル
+[2023.01.05-16.51.49:945][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.01.05-16.51.50:889][740]LogSavePackage: Moving output files for package: /Game/BP/BP_SeparateFruitsGameMode
+[2023.01.05-16.51.50:890][740]LogSavePackage: Moving '../../../../../../Users/ISSEI/Documents/GitHub/SeparatedFruits/SeparateFruits/Saved/BP_SeparateFruitsGameMode61DCC57D48DA112C45C3B39B6B87DA79.tmp' to '../../../../../../Users/ISSEI/Documents/GitHub/SeparatedFruits/SeparateFruits/Content/BP/BP_SeparateFruitsGameMode.uasset'
+[2023.01.05-16.51.50:904][740]AssetCheck: New page: アセット保存：BP_SeparateFruitsGameMode
+[2023.01.05-16.51.50:905][740]LogContentValidation: Display: Blueprint /Game/BP/BP_SeparateFruitsGameMode.BP_SeparateFruitsGameMode を検証しています
+[2023.01.05-16.51.51:798][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.01.05-16.51.54:025][840]LogSlate: Window '名前を付けてレベルを保存する' being destroyed
+[2023.01.05-16.51.54:102][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.01.05-16.51.54:135][840]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.05-16.51.54:186][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.01.05-16.51.54:207][840]LogSavePackage: Moving output files for package: /Game/Map/Untitled
+[2023.01.05-16.51.54:207][840]LogSavePackage: Moving '../../../../../../Users/ISSEI/Documents/GitHub/SeparatedFruits/SeparateFruits/Saved/UntitledF40101204E09A8F55DEF68956CA43E70.tmp' to '../../../../../../Users/ISSEI/Documents/GitHub/SeparatedFruits/SeparateFruits/Content/Map/Untitled.umap'
+[2023.01.05-16.51.54:211][840]LogFileHelpers: Saving map 'Untitled' took 0.177
+[2023.01.05-16.51.54:222][840]AssetCheck: New page: アセット保存：Untitled
+[2023.01.05-16.51.54:222][840]LogContentValidation: Display: World /Game/Map/Untitled.Untitled を検証しています
+[2023.01.05-16.51.55:463][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.05-16.51.58:531][983]LogSlate: Window 'メッセージ' being destroyed
+[2023.01.05-16.51.58:538][983]Message dialog closed, result: Yes, title: メッセージ, text: Untitled は既に存在します。置換してもよろしいですか？
+[2023.01.05-16.51.58:538][983]LogSlate: Window '名前を付けてレベルを保存する' being destroyed
+[2023.01.05-16.51.58:552][983]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.58:552][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.58:603][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.01.05-16.51.58:652][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.01.05-16.51.58:673][983]LogObjectTools: Deleting 1 worlds: /Game/Map/Untitled.Untitled
+[2023.01.05-16.51.58:673][983]LogObjectTools: Currently 18 active worlds: /Game/Map/Main.Main, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_11, /Engine/Transient.World_16, /Engine/Transient.World_37, /Engine/Transient.World_39, /Engine/Transient.World_40, /Engine/Transient.World_51, /Engine/Transient.World_52
+[2023.01.05-16.51.58:722][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.05-16.51.58:833][983]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.58:833][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.58:834][983]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2023.01.05-16.51.58:834][983]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.51.58:834][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.51.58:885][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.01.05-16.51.58:935][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.01.05-16.51.58:985][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.01.05-16.51.59:052][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.01.05-16.51.59:087][983]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.05-16.51.59:140][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.01.05-16.51.59:160][983]LogSavePackage: Moving output files for package: /Game/Map/Untitled
+[2023.01.05-16.51.59:161][983]LogSavePackage: Moving '../../../../../../Users/ISSEI/Documents/GitHub/SeparatedFruits/SeparateFruits/Saved/UntitledD80ECEB640717088D9DE2298C5CFC8D9.tmp' to '../../../../../../Users/ISSEI/Documents/GitHub/SeparatedFruits/SeparateFruits/Content/Map/Untitled.umap'
+[2023.01.05-16.51.59:165][983]LogFileHelpers: Saving map 'Untitled' took 0.511
+[2023.01.05-16.51.59:177][983]AssetCheck: New page: アセット保存：Untitled
+[2023.01.05-16.51.59:177][983]LogContentValidation: Display: World /Game/Map/Untitled.Untitled を検証しています
+[2023.01.05-16.52.42:529][610]LogObjectTools: Deleting 1 worlds: /Game/Map/Untitled.Untitled
+[2023.01.05-16.52.42:529][610]LogObjectTools: Currently 18 active worlds: /Game/Map/Main.Main, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_11, /Engine/Transient.World_16, /Engine/Transient.World_37, /Engine/Transient.World_39, /Engine/Transient.World_40, /Engine/Transient.World_51, /Engine/Transient.World_52
+[2023.01.05-16.52.42:579][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.01.05-16.52.43:734][610]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.05-16.52.43:756][610]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Map/Untitled.Untitled
+	Asset Type: World
+[2023.01.05-16.52.44:005][610]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.52.44:005][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.52.44:229][610]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2023.01.05-16.52.44:356][610]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2023.01.05-16.52.44:356][610]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.05-16.52.44:356][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.05-16.52.44:405][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.05-16.52.44:456][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.01.05-16.52.44:506][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
